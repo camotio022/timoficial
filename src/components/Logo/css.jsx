@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export const LogoCss = {
 
     navbar: styled(Stack)(({ }) => ({
-        position: 'absolute',
+        position: 'fixed',
         top: 0,
         left: 0,
         display: 'flex',
@@ -16,6 +16,8 @@ export const LogoCss = {
         width: '100%',
         height: '100px',
         color: colors.cyan,
+        backgroundColor: colors.containTask,
+        zIndex: 99999,
     })),
     taglogo: styled(Stack)(({ }) => ({
         display: 'flex',

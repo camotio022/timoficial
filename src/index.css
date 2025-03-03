@@ -6,12 +6,10 @@
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   transition: all 0.3s ease-in-out;
 }
 
@@ -24,8 +22,33 @@ body {
   min-width: 320px;
   min-height: 100vh;
   padding: 0px;
+  overflow-x: hidden;
+
+}
+::-webkit-scrollbar {
+  width: 5px; /* Largura da barra de rolagem vertical */
+  height: 3px; /* Altura da barra de rolagem horizontal */
+  border-radius: 6px;
+  background-color: orange;
 }
 
+/* Estiliza o "polegar" da barra de rolagem (a parte que se move) */
+::-webkit-scrollbar-thumb {
+  background-color: orange;
+  border-radius: 50%;
+}
+
+/* Estiliza a trilha da barra de rolagem (o fundo) */
+::-webkit-scrollbar-track {
+  background-color: #17a2b8;
+  border-radius: 50%;
+}
+
+/* Estiliza a barra de rolagem no Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #17a2b8 transparent;
+}
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
