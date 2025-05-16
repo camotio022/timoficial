@@ -124,7 +124,7 @@ export const Profile = ({ }) => {
                     <img
                         style={{
                             width: 'auto',
-                            height: '120%',
+                            height: '100%',
                             objectFit: "cover",
                         }}
                         src={Timo}

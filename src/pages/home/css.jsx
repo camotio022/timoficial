@@ -13,6 +13,7 @@ export const Tags = {
         minHeight: '100vh',
         height: 'auto',
         overflowX: 'hidden', // Garante que não tenha scroll horizontal
-        ...colors.scrollBar
+        ...colors.scrollBar,
+        backgroundColor: colors.containTask
     })),
 }

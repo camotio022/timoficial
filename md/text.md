@@ -89,3 +89,51 @@ Seria legal ter **ícones de redes sociais na navbar** ou no **footer** com link
 Dessa forma, qualquer pessoa que acessar seu site vai entender rapidamente **quem você é e o que faz**!  
 
 💡 **O que acha desse formato? Alguma área que quer destacar mais?** 😃🔥
+
+
+sh][a[h]]g]
+
+g´~á]eyg]~hhh~h]]b
+zh
+zhb]
+][v[][
+]]
+\
+
+
+vc~]vai
+~descriptionf
+]ds
+~çvc[fgg
+~sg]24jk4ljkl]4jl  /jmh~fyg
+m
+cg
+km4,vvj~ç;jçjmgç~jg
+
+hj
+gap
+m/,j
+
+legaljk
+legal
+/mailhjk
+l
+jh
+l
+
+
+jkl
+
+
+
+kjl
+
+kjl
+
+
+
+? <h
+k,hjk
+
+hKh
+>]]

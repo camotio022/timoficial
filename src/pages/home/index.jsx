@@ -34,7 +34,8 @@ export const Home = () => {
         { id: "9", image: IMG8, description: "Descrição da Foto 9" },
         { id: "10", image: IMG9, description: "Descrição da Foto 10" },
         { id: "11", image: IMG10, description: "Descrição da Foto 11" },
-        { id: "12", image: IMG11, description: "Descrição da Foto 12" }
+        { id: "12", image: IMG11, description: "Descrição da Foto 12" },
+        { id: "13", image: IMG11, description: "Descrição da Foto 12" },
     ]
     return (
         <Tags.containerMain sx={{
@@ -62,14 +63,15 @@ export const Home = () => {
                   sx={{
                     mt: '24px',
                     height: 'auto',
-                    display: 'flex', // Layout de acordo com a tela
+                    display: 'flex',
                     flexWrap: 'wrap',
                     alignItems: 'center',
-                    justifyContent: 'flex-start',
-                    gap: { xs: 1, sm: 2, md: 3 }, // Espaçamento entre os filhos
-                    width: '100%', // Garantir que a largura do container seja 100%
-                    mx: 'auto', // Centraliza o container horizontalmente
-                    borderRadius: 2, // Bordas arredondadas
+                    justifyContent: 'center',
+                    gap: { xs: 1, sm: 2, md: 3 },
+                    width: '100%',
+                    mx: 'auto',
+                    borderRadius: 2,
+           
                   }}
                   
                 >
@@ -77,7 +79,8 @@ export const Home = () => {
                         <Card key={index} variant="h6" sx={{
                             margin: '12px 0 12px 0',
                             position: 'relative',
-                            maxWidth: 345,
+                            maxWidth: 375,
+                            width: '275px',
                             boxShadow: `0 4px 10px ${colors.boxShadowTask}`,
                             border: `0.1px solid rgba(23, 162, 184, 0.2)`,
 
@@ -97,21 +100,19 @@ export const Home = () => {
                         }}>
                             <CardMedia
                                 component="img"
-                                alt="Imagem de Exemplo"
-                                height="230"
-                                width='250'
+                                alt={f.description}
+                                height="350"
+                                width='100%'
                                 image={f.image}
                                 sx={{
                                     borderTopLeftRadius: '4px',
                                     borderTopRightRadius: '4px',
                                 }}
                             />
-                            {f.description}
+                            {/* {f.description} */}
                         </Card>
                     ))}
-
                 </Box>
-
             </Stack>
         </Tags.containerMain>
     )
